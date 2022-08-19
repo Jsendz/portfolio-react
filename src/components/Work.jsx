@@ -1,5 +1,7 @@
 import React from 'react'
 import Workimg from '../assets/workImg.jpeg'
+import Nomad from '../assets/nomadterapiasreact3.png'
+import Sweet from '../assets/sweethome3.png'
 
 const Work = () => {
   return (
@@ -14,7 +16,7 @@ const Work = () => {
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
 
                 {/*grid item*/}
-                <div style={{backgroundImage: `url(${Workimg})`}}  className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
+                <div style={{backgroundImage: `url(${Nomad})`}}  className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
 
                     {/* Hover Effetcs */}
 
@@ -23,7 +25,7 @@ const Work = () => {
 
                         </span>
                         <div className="pt-8 text-center">
-                            <a href="/">
+                            <a href="https://www.thesweethomecompany.com/">
                                 <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button>
                             </a>
                             <a href="/">
@@ -32,7 +34,7 @@ const Work = () => {
                         </div>
                     </div>
                 </div>
-                <div style={{backgroundImage: `url(${Workimg})`}}  className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
+                <div style={{backgroundImage: `url(${Sweet})`}}  className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
 
                     {/* Hover Effetcs */}
 
