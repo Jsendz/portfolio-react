@@ -1,0 +1,27 @@
+{
+    "Navbar" : {
+        "Home":"Inicio",
+        "About":"Sobre mi",
+        "Skill": "Conocimientos",
+        "Work": "Proyectos",
+        "Contact": "Contacto"
+    },
+
+    "Home" : {
+        "Pname":"Hola, me llamo",
+        "p-me": "Joshua Sendzul",
+        "H2stack": "Desarollador Web Full Stack ",
+        "Pdescrip": "Me gusta codificar cosas desde cero y disfruto dando vida a las ideas en el navegador."
+
+    },
+    "About" : {
+        "p-about":"Sobre mi",
+        "p-lorem":"",
+        "p-from": "Nacido en Sudáfrica, criado en Andorra. Con formación en Economía y Gestión empresarial y experiencia en el sector bancario, finalmente decidí seguir mi creciente interés por la codificación. Desarrollador fullstack autodidacta, me encanta participar en proyectos y seguir aprendiendo cosas nuevas en el camino.."
+    },
+    "Experience":{ 
+    "p-exp":"Conocimientos",
+    "p-stack":"Tecnologías con las que trabajo"
+    }
+
+}

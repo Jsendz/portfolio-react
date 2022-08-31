@@ -1,37 +1,46 @@
 import React, {useState} from 'react';
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
 import {HiOutlineMail} from "react-icons/hi";
-import {Link} from 'react-scroll'
+import {Link} from 'react-scroll';
+import {useTranslation} from "react-i18next";
 
 
 const Navbar = () => {
 
     const [nav, setNav] = useState(false)
     const handleClick = () => setNav(!nav)
+    const [t, i18n] = useTranslation("global");
 
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#012F44] text-[#FF9D0A]">
         <div>
             <h1>Joshua Sendzul</h1>
         </div>
+        <div>
+            
+                <button className="px-2" onClick={() => i18n.changeLanguage("en")}>EN</button>
+                <button className="px-2" onClick={() => i18n.changeLanguage("es")}>ES</button>
+                <button className="px-2" onClick={() => i18n.changeLanguage("fr")}>FR</button>
+            
+        </div>
         <div className="hidden md:flex">
             <ul className="hidden md:flex">
                 <li><Link  to="home" smooth={true} duration={500} >
-          Home
+          {t("Navbar.Home")}
         </Link></li>
                
                 <li><Link  to="about" smooth={true} duration={500} >
-          About
+                {t("Navbar.About")}
         </Link>
             </li>
                 <li><Link  to="skills" smooth={true} duration={500} >
-          Skills
+                {t("Navbar.Skill")}
         </Link></li>
                 <li> <Link  to="work" smooth={true} duration={500} >
-          Work
+                {t("Navbar.Work")}
         </Link></li>
                 <li> <Link  to="contact" smooth={true} duration={500} >
-          Contact
+                {t("Navbar.Contact")}
         </Link></li>
             </ul>
         </div>
@@ -45,19 +54,19 @@ const Navbar = () => {
         <div className={!nav ? "hidden" : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"}>
         <ul>
                <li className=" py-6 text 4xl"><Link onClick={handleClick}  to="home" smooth={true} duration={500} >
-          Home
+               {t("Navbar.Home")}
         </Link></li>
                <li className=" py-6 text 4xl"><Link onClick={handleClick}  to="about" smooth={true} duration={500} >
-          About
+               {t("Navbar.About")}
         </Link></li>
                <li className=" py-6 text 4xl"><Link onClick={handleClick}  to="skills" smooth={true} duration={500} >
-          Skills
+               {t("Navbar.Skill")}
         </Link></li>
                <li className=" py-6 text 4xl"><Link onClick={handleClick}  to="work" smooth={true} duration={500} >
-          Work
+               {t("Navbar.Work")}
         </Link></li>
                <li className=" py-6 text 4xl"><Link onClick={handleClick}  to="contact" smooth={true} duration={500} >
-          Contact
+               {t("Navbar.Contact")}
         </Link></li>
            </ul>
         </div>
