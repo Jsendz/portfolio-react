@@ -17,11 +17,11 @@ const Navbar = () => {
             <h1>Joshua Sendzul</h1>
         </div>
         <div>
-            
-                <button className="px-2" onClick={() => i18n.changeLanguage("en")}>EN</button>
-                <button className="px-2" onClick={() => i18n.changeLanguage("es")}>ES</button>
-                <button className="px-2" onClick={() => i18n.changeLanguage("fr")}>FR</button>
-            
+            <select name="" id="">
+                <option value="" onClick={() => i18n.changeLanguage("en")}><button className="px-2" >EN</button></option>
+                <option value="" onClick={() => i18n.changeLanguage("en")}><button className="px-2" >ES</button></option>
+                <option value="" onClick={() => i18n.changeLanguage("en")}><button className="px-2" >FR</button></option>
+                </select>
         </div>
         <div className="hidden md:flex">
             <ul className="hidden md:flex">
