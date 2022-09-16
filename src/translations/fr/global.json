@@ -30,6 +30,11 @@
         "h-work":"Projets",
         "p-list":"Projets en cours"
 
+    },
+
+    "Contact" : {
+        "h-contact":"Contacte",
+        "p-contact" :"Contactez moi!"
     }
 
 

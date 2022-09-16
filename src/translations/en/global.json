@@ -29,5 +29,10 @@
         "h-work":"Work",
         "p-list":"Check out some of my recent work"
 
+    },
+
+    "Contact" : {
+        "h-contact":"Contact",
+        "p-contact" :"Submit the form below or shoot me an email"
     }
 }

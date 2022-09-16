@@ -28,6 +28,10 @@
         "h-work":"Proyectos",
         "p-list":"Proyectos en curso"
 
+    },
+    "Contact" : {
+        "h-contact":"Contacto",
+        "p-contact" :"Pongamonos en contacto!"
     }
 
 
