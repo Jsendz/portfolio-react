@@ -16,7 +16,7 @@ const Navbar = () => {
         <div>
             <h1>Joshua Sendzul</h1>
         </div>
-        <div className="flex">
+        <div className="flex border-2 border-[#DEEFE7]">
             
                 <button className="px-2" onClick={() => i18n.changeLanguage("en")} >EN</button>
                 <button className="px-2" onClick={() => i18n.changeLanguage("en")} >ES</button>
@@ -25,21 +25,21 @@ const Navbar = () => {
         </div>
         <div className="hidden md:flex">
             <ul className="hidden md:flex">
-                <li><Link  to="home" smooth={true} duration={500} >
+                <li className="border-2 bg-[#DEEFE7] p-2"><Link  to="home" smooth={true} duration={500} >
           {t("Navbar.Home")}
         </Link></li>
                
-                <li><Link  to="about" smooth={true} duration={500} >
+                <li className="border-2 bg-[#DEEFE7] p-2"><Link  to="about" smooth={true} duration={500} >
                 {t("Navbar.About")}
         </Link>
             </li>
-                <li><Link  to="skills" smooth={true} duration={500} >
+                <li className="border-2 bg-[#DEEFE7] p-2"><Link  to="skills" smooth={true} duration={500} >
                 {t("Navbar.Skill")}
         </Link></li>
-                <li> <Link  to="work" smooth={true} duration={500} >
+                <li className="border-2 bg-[#DEEFE7] p-2"> <Link  to="work" smooth={true} duration={500} >
                 {t("Navbar.Work")}
         </Link></li>
-                <li> <Link  to="contact" smooth={true} duration={500} >
+                <li className="border-2 bg-[#DEEFE7] p-2"> <Link  to="contact" smooth={true} duration={500} >
                 {t("Navbar.Contact")}
         </Link></li>
             </ul>
