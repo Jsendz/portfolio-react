@@ -23,8 +23,8 @@ const Navbar = () => {
                 <button className="px-4" onClick={() => i18n.changeLanguage("en")} >FR</button>
                 
         </div>
-        <div className="hidden md:flex justify-around">
-            <ul className="hidden md:flex">
+        <div className="hidden md:flex">
+            <ul className="hidden md:flex justify-around">
                 <li className="border-2 bg-[#DEEFE7] p-3 rounded-lg"><Link  to="home" smooth={true} duration={500} >
           {t("Navbar.Home")}
         </Link></li>
