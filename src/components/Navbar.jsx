@@ -18,9 +18,9 @@ const Navbar = () => {
         </div>
         <div>
             
-                <option value="" onClick={() => i18n.changeLanguage("en")}><button className="px-2" >EN</button></option>
-                <option value="" onClick={() => i18n.changeLanguage("en")}><button className="px-2" >ES</button></option>
-                <option value="" onClick={() => i18n.changeLanguage("en")}><button className="px-2" >FR</button></option>
+                <button className="px-2" onClick={() => i18n.changeLanguage("en")} >EN</button>
+                <button className="px-2" onClick={() => i18n.changeLanguage("en")} >ES</button>
+                <button className="px-2" onClick={() => i18n.changeLanguage("en")} >FR</button>
                 
         </div>
         <div className="hidden md:flex">
