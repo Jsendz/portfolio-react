@@ -24,7 +24,7 @@ const Navbar = () => {
                 
         </div>
         <div className="hidden md:flex">
-            <ul className="hidden md:flex justify-around">
+            <ul className="hidden md:flex md:justify-around">
                 <li className="border-2 bg-[#DEEFE7] p-3 rounded-lg"><Link  to="home" smooth={true} duration={500} >
           {t("Navbar.Home")}
         </Link></li>
