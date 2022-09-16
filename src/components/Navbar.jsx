@@ -25,21 +25,21 @@ const Navbar = () => {
         </div>
         <div className="hidden md:flex">
             <ul className="hidden md:flex md:justify-around">
-                <li className="hover:border-2 bg-slate-300 p-3 rounded-lg ml-1"><Link  to="home" smooth={true} duration={500} >
+                <li className=""><Link  to="home" smooth={true} duration={500} >
           {t("Navbar.Home")}
         </Link></li>
                
-                <li className="hover:border-2 bg-slate-300 p-3 rounded-lg ml-1"><Link  to="about" smooth={true} duration={500} >
+                <li className=""><Link  to="about" smooth={true} duration={500} >
                 {t("Navbar.About")}
         </Link>
             </li>
-                <li className="hover:border-2 bg-slate-300 p-3 rounded-lg ml-1"><Link  to="skills" smooth={true} duration={500} >
+                <li className=""><Link  to="skills" smooth={true} duration={500} >
                 {t("Navbar.Skill")}
         </Link></li>
-                <li className="hover:border-2 bg-slate-300 p-3 rounded-lg ml-1"> <Link  to="work" smooth={true} duration={500} >
+                <li className=""> <Link  to="work" smooth={true} duration={500} >
                 {t("Navbar.Work")}
         </Link></li>
-                <li className="hover:border-2 bg-slate-300 p-3 rounded-lg ml-1"> <Link  to="contact" smooth={true} duration={500} >
+                <li className=""> <Link  to="contact" smooth={true} duration={500} >
                 {t("Navbar.Contact")}
         </Link></li>
             </ul>
