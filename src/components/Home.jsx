@@ -29,7 +29,7 @@ const Home = () => {
         </div>
       </div>
       <div className="" >
-          <img className="rounded-2xl mx-auto w-2/3 md:w-full" src={Aboutmepic} alt="aboutmepic" />
+          <img className="rounded-2xl mx-auto w-2/3 md:w-full border-2 border-[#DEEFE7]" src={Aboutmepic} alt="aboutmepic" />
         </div>
       </div>
 
