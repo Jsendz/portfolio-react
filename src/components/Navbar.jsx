@@ -18,12 +18,12 @@ const Navbar = () => {
         </div>
         <div className="flex border-2 border-[#DEEFE7] rounded-lg">
             
-                <button className="px-2" onClick={() => i18n.changeLanguage("en")} >EN</button>
-                <button className="px-2" onClick={() => i18n.changeLanguage("en")} >ES</button>
-                <button className="px-2" onClick={() => i18n.changeLanguage("en")} >FR</button>
+                <button className="px-4" onClick={() => i18n.changeLanguage("en")} >EN</button>
+                <button className="px-4" onClick={() => i18n.changeLanguage("en")} >ES</button>
+                <button className="px-4" onClick={() => i18n.changeLanguage("en")} >FR</button>
                 
         </div>
-        <div className="hidden md:flex">
+        <div className="hidden md:flex justify-around">
             <ul className="hidden md:flex">
                 <li className="border-2 bg-[#DEEFE7] p-3 rounded-lg"><Link  to="home" smooth={true} duration={500} >
           {t("Navbar.Home")}
