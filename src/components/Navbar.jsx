@@ -16,11 +16,11 @@ const Navbar = () => {
         <div>
             <h1>Joshua Sendzul</h1>
         </div>
-        <div className="flex border-2 border-[#DEEFE7] rounded-lg">
+        <div className="hidden md:flex border-2 border-[#DEEFE7] rounded-lg">
             
                 <button className="px-4" onClick={() => i18n.changeLanguage("en")} >EN</button>
-                <button className="px-4" onClick={() => i18n.changeLanguage("en")} >ES</button>
-                <button className="px-4" onClick={() => i18n.changeLanguage("en")} >FR</button>
+                <button className="px-4" onClick={() => i18n.changeLanguage("es")} >ES</button>
+                <button className="px-4" onClick={() => i18n.changeLanguage("fr")} >FR</button>
                 
         </div>
         <div className="hidden md:flex">
