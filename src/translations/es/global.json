@@ -22,6 +22,13 @@
     "Experience":{ 
     "p-exp":"Conocimientos",
     "p-stack":"Tecnologías con las que trabajo"
+    },
+
+    "Work": {
+        "h-work":"Proyectos",
+        "p-list":"Proyectos en curso"
+
     }
+
 
 }
