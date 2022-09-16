@@ -1,5 +1,4 @@
 import React from 'react'
-import Workimg from '../assets/workImg.jpeg'
 import Nomad from '../assets/nomadterapiasreact3.png'
 import Sweet from '../assets/sweethome3.png'
 import { t } from 'i18next'
