@@ -1,4 +1,4 @@
-import { t } from 'i18next'
+
 import React from 'react'
 import {HiArrowNarrowRight} from 'react-icons/hi'
 import Aboutmepic from '../assets/aboutmepic.png'
