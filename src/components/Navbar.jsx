@@ -14,7 +14,8 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#012F44] text-[#FF9D0A]">
         <div className="w-24">
-            <img src="/assets/joshlogo.svg" alt="" />
+            <img src="src/assets/joshlogo.svg" alt="" />
+        
         </div>
         <div className="flex border-2 border-[#DEEFE7] rounded-lg">
             
