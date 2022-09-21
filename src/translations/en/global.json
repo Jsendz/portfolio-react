@@ -33,6 +33,6 @@
 
     "Contact" : {
         "h-contact":"Contact",
-        "p-contact" :"Submit the form below or shoot me an email"
+        "p-contact":"Submit the form below or shoot me an email"
     }
 }
